@@ -165,7 +165,7 @@ const About = () => {
             {/* Resume button shortcut */}
             <div className="pt-4">
               <a
-                href="/zishanresume.pdf"
+                href="/Zishanresume.pdf"
                 download="Zishan_Ahmad_Resume.pdf"
                 className="inline-flex items-center space-x-2 text-sm font-semibold text-accent hover:text-white transition-colors duration-300"
               >

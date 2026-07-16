@@ -211,7 +211,7 @@ const ProjectDetails = () => {
                 You can download the full resume PDF to examine detailed coursework structure.
               </p>
               <a
-                href="/zishanresume.pdf"
+                href="/Zishanresume.pdf"
                 download="Zishan_Ahmad_Resume.pdf"
                 className="mt-4 w-full py-3 rounded-xl text-xs font-semibold uppercase tracking-wider text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent/30 flex items-center justify-center space-x-2 transition-all duration-300"
               >
