@@ -33,7 +33,7 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-semibold text-accent uppercase tracking-widest font-mono"
+            className="text-sm font-semibold text-accent mb-2"
           >
             About Me
           </motionFramer.h3>
@@ -127,11 +127,11 @@ const About = () => {
             {/* Quick Specs / Location details */}
             <div className="grid grid-cols-2 gap-4 pt-2 border-t border-white/5">
               <div>
-                <span className="text-xs text-gray-500 uppercase tracking-widest font-mono block">Location</span>
+                <span className="text-sm font-medium text-gray-500 block mb-1">Location</span>
                 <span className="text-sm font-semibold text-white">Chandigarh, India</span>
               </div>
               <div>
-                <span className="text-xs text-gray-500 uppercase tracking-widest font-mono block">Degree</span>
+                <span className="text-sm font-medium text-gray-500 block mb-1">Degree</span>
                 <span className="text-sm font-semibold text-white">B.Tech in Computer Science</span>
               </div>
             </div>

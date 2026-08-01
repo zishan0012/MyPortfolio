@@ -16,7 +16,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-semibold text-accent uppercase tracking-widest font-mono"
+            className="text-sm font-semibold text-accent mb-2"
           >
             My Showcase
           </motion.h3>
@@ -56,7 +56,7 @@ const Projects = () => {
                   />
                   
                   {/* Category Pill */}
-                  <span className="absolute top-4 left-4 z-20 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent bg-dark-bg/80 border border-white/10 rounded-full flex items-center space-x-1.5">
+                  <span className="absolute top-4 left-4 z-20 px-3 py-1 text-xs font-medium text-accent bg-dark-bg/80 border border-white/10 rounded-full flex items-center space-x-1.5">
                     <Layers className="w-3 h-3 text-accent" />
                     <span>{project.category}</span>
                   </span>
@@ -119,7 +119,7 @@ const Projects = () => {
                 {/* Know More Router Redirect */}
                 <Link
                   to={`/projects/${project.id}`}
-                  className="inline-flex items-center space-x-1 text-xs font-bold uppercase tracking-wider text-accent group-hover:text-white transition-colors duration-200"
+                  className="inline-flex items-center space-x-1 text-sm font-medium text-accent group-hover:text-white transition-colors duration-200"
                 >
                   <span>Know More</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-200" />

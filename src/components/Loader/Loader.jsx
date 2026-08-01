@@ -49,10 +49,10 @@ const Loader = () => {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="mt-6 flex flex-col items-center"
         >
-          <h2 className="font-display font-semibold tracking-wider text-sm uppercase text-gray-300">
+          <h2 className="font-display font-semibold text-lg text-gray-300">
             Zishan Ahmad
           </h2>
-          <p className="text-xs text-accent mt-1 tracking-widest font-mono uppercase animate-pulse">
+          <p className="text-sm font-medium text-accent mt-1 animate-pulse">
             MERN Stack Developer
           </p>
         </motion.div>

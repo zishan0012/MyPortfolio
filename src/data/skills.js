@@ -32,7 +32,7 @@ export const skillCategories = [
     skills: [
       { name: "Git", level: 85 },
       { name: "GitHub", level: 88 },
-      { name: "Postman", level: 90 },
+      { name: "Postman", level: 80 },
       { name: "Vercel", level: 80 }
     ]
   },

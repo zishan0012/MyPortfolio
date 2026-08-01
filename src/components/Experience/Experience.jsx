@@ -15,7 +15,7 @@ const Experience = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-semibold text-accent uppercase tracking-widest font-mono"
+            className="text-sm font-semibold text-accent mb-2"
           >
             My Journey
           </motion.h3>
@@ -69,7 +69,7 @@ const Experience = () => {
 
                       {/* Header details */}
                       <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
-                        <span className="px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent bg-accent/10 rounded-full">
+                        <span className="px-3 py-1 text-xs font-medium text-accent bg-accent/10 rounded-full">
                           {job.duration}
                         </span>
                         

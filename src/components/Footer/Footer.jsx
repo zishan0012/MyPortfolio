@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Contact Quick Details */}
           <div className="flex flex-col items-center md:items-start space-y-2">
-            <h4 className="text-white font-display font-semibold text-sm uppercase tracking-wider mb-2">
+            <h4 className="text-white font-display font-semibold text-lg mb-2">
               Contact Details
             </h4>
             <div className="flex items-center space-x-2 text-gray-400 text-sm hover:text-accent transition-colors duration-200">
@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="flex flex-col items-center md:items-end space-y-4">
-            <h4 className="text-white font-display font-semibold text-sm uppercase tracking-wider">
+            <h4 className="text-white font-display font-semibold text-lg">
               Follow Me
             </h4>
             <div className="flex space-x-3">
@@ -91,7 +91,8 @@ const Footer = () => {
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center text-center text-xs text-gray-500 space-y-2 md:space-y-0">
           <p>© {currentYear} Zishan Ahmad. All rights reserved.</p>
           <p>
-            Designed & Developed with <span className="text-red-500">❤️</span> using React & Tailwind
+            Designed & Developed by <span className="ml-1 mr-1 text-accent"> Zishan Ahmad </span>
+            using React & Tailwind
           </p>
         </div>
       </div>

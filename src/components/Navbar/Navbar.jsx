@@ -125,7 +125,7 @@ const Navbar = () => {
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, 'contact')}
-              className="px-4 py-2 rounded-lg text-xs font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-primary to-secondary hover:brightness-110 active:scale-95 shadow-md shadow-primary/20 hover:shadow-primary/30 flex items-center space-x-1 transition-all duration-300"
+              className="px-4 py-2 rounded-lg text-sm font-medium text-white bg-gradient-to-r from-primary to-secondary hover:brightness-110 active:scale-95 shadow-md shadow-primary/20 hover:shadow-primary/30 flex items-center space-x-1 transition-all duration-300"
             >
               <span>Let's Talk</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -201,7 +201,7 @@ const Navbar = () => {
                 <a
                   href="#contact"
                   onClick={(e) => handleNavClick(e, 'contact')}
-                  className="w-full py-4 rounded-xl text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-primary to-secondary hover:brightness-110 active:scale-95 shadow-md shadow-primary/20 flex items-center justify-center space-x-2 transition-all duration-300"
+                  className="w-full py-4 rounded-xl text-sm font-medium text-white bg-gradient-to-r from-primary to-secondary hover:brightness-110 active:scale-95 shadow-md shadow-primary/20 flex items-center justify-center space-x-2 transition-all duration-300"
                 >
                   <span>Let's Connect</span>
                   <ArrowRight className="w-4 h-4" />

@@ -15,7 +15,7 @@ const Education = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-semibold text-accent uppercase tracking-widest font-mono"
+            className="text-sm font-semibold text-accent mb-2"
           >
             Milestones
           </motion.h3>
@@ -53,7 +53,7 @@ const Education = () => {
                 <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-primary to-accent"></div>
 
                 <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
-                  <div className="flex items-center space-x-2 text-xs font-semibold text-accent uppercase tracking-wider py-1 px-2.5 rounded-full bg-accent/10">
+                  <div className="flex items-center space-x-2 text-xs font-medium text-accent py-1 px-2.5 rounded-full bg-accent/10">
                     <Calendar className="w-3.5 h-3.5" />
                     <span>{edu.duration}</span>
                   </div>
@@ -103,7 +103,7 @@ const Education = () => {
                 </div>
 
                 <div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-accent font-mono block mb-1.5">
+                  <span className="text-xs font-medium text-accent block mb-1.5">
                     {ach.duration}
                   </span>
                   

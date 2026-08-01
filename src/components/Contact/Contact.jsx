@@ -87,7 +87,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-semibold text-accent uppercase tracking-widest font-mono"
+            className="text-sm font-semibold text-accent mb-2"
           >
             Get In Touch
           </motion.h3>
@@ -133,7 +133,7 @@ const Contact = () => {
                       {detail.icon}
                     </div>
                     <div>
-                      <span className="text-[10px] text-gray-500 font-mono uppercase tracking-wider block">
+                      <span className="text-xs text-gray-500 font-medium block">
                         {detail.label}
                       </span>
                       {detail.link ? (
@@ -165,7 +165,7 @@ const Contact = () => {
               <a
                 href="/Zishanresume.pdf"
                 download="Zishan_Ahmad_Resume.pdf"
-                className="mt-4 inline-flex items-center space-x-2 px-4 py-2.5 rounded-lg text-xs font-semibold uppercase tracking-wider text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent/30 transition-all duration-300 transform active:scale-95"
+                className="mt-4 inline-flex items-center space-x-2 px-4 py-2.5 rounded-lg text-sm font-medium text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent/30 transition-all duration-300 transform active:scale-95"
               >
                 <FileDown className="w-4 h-4 text-accent animate-bounce" />
                 <span>Get Resume PDF</span>
@@ -312,7 +312,7 @@ const Contact = () => {
                     <button
                       type="submit"
                       disabled={status === 'sending'}
-                      className="w-full py-4 rounded-xl text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-primary via-secondary to-accent hover:brightness-110 disabled:brightness-75 shadow-lg shadow-primary/25 disabled:cursor-not-allowed flex items-center justify-center space-x-2 transition-all duration-300 transform active:scale-[0.98] cursor-pointer"
+                      className="w-full py-4 rounded-xl text-sm font-medium text-white bg-gradient-to-r from-primary via-secondary to-accent hover:brightness-110 disabled:brightness-75 shadow-lg shadow-primary/25 disabled:cursor-not-allowed flex items-center justify-center space-x-2 transition-all duration-300 transform active:scale-[0.98] cursor-pointer"
                     >
                       {status === 'sending' ? (
                         <>

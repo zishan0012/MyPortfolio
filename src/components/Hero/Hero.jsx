@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, ArrowDown, FileText } from 'lucide-react';
 
-const roles = ["Frontend Developer", "MERN Stack Developer", "Full-Stack Engineer", "Problem Solver"];
+const roles = ["Frontend Developer", "MERN Stack Developer", "Problem Solver"];
 
 const Hero = () => {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -87,7 +87,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="px-4 py-1.5 rounded-full glassmorphism text-xs font-semibold text-accent border border-white/10 uppercase tracking-widest mb-6 flex items-center space-x-2"
+          className="px-4 py-1.5 rounded-full glassmorphism text-sm font-medium text-accent border border-white/10 mb-6 flex items-center space-x-2"
         >
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
           <span>Open for new opportunities</span>
@@ -138,14 +138,14 @@ const Hero = () => {
           <a
             href="/Zishanresume.pdf"
             download="Zishan_Ahmad_Resume.pdf"
-            className="w-full sm:w-auto px-8 py-4 rounded-xl text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-primary via-secondary to-accent hover:brightness-110 shadow-lg shadow-primary/25 hover:shadow-primary/35 flex items-center justify-center space-x-2 transition-all duration-300 transform active:scale-95"
+            className="w-full sm:w-auto px-8 py-4 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-primary via-secondary to-accent hover:brightness-110 shadow-lg shadow-primary/25 hover:shadow-primary/35 flex items-center justify-center space-x-2 transition-all duration-300 transform active:scale-95"
           >
             <FileText className="w-4 h-4" />
             <span>Download Resume</span>
           </a>
           <button
             onClick={() => handleScrollToSection('contact')}
-            className="w-full sm:w-auto px-8 py-4 rounded-xl text-sm font-semibold uppercase tracking-wider text-white border border-white/10 hover:border-accent/40 bg-white/5 hover:bg-white/10 flex items-center justify-center space-x-2 transition-all duration-300 transform active:scale-95 cursor-pointer"
+            className="w-full sm:w-auto px-8 py-4 rounded-xl text-sm font-semibold text-white border border-white/10 hover:border-accent/40 bg-white/5 hover:bg-white/10 flex items-center justify-center space-x-2 transition-all duration-300 transform active:scale-95 cursor-pointer"
           >
             <span>Contact Me</span>
           </button>
@@ -193,7 +193,7 @@ const Hero = () => {
           onClick={() => handleScrollToSection('about')}
           className="mt-16 flex flex-col items-center text-gray-400 hover:text-white transition-colors duration-200 cursor-pointer"
         >
-          <span className="text-xs uppercase tracking-widest font-mono font-medium mb-2">
+          <span className="text-sm font-medium text-gray-400 mb-2">
             Scroll Down
           </span>
           <motion.div

@@ -1,3 +1,6 @@
+import adkryossImg from "../assets/project-img/adkryoss-img.png";
+import edulinkerImg from "../assets/project-img/edulinker-img.png";
+
 export const projectsData = [
   {
     id: "adkryoss-platform",
@@ -5,7 +8,7 @@ export const projectsData = [
     subtitle: "Full-Stack Marketing Calculator & Lead Capture Portal",
     shortDescription: "A comprehensive digital marketing hub featuring SEO, PPC, and CRO calculators with integrated lead generation capabilities.",
     description: "AdKryoss is a premium full-stack digital marketing platform designed to empower businesses with instant advertising insights. It features interactive marketing calculators that estimate campaign costs, conversion rates, and ROI, and captures business inquiries via a robust Node.js and MongoDB backend.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: adkryossImg,
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB Atlas", "Tailwind CSS", "Framer Motion"],
     features: [
       "Dynamic SEO ROI & Pay-Per-Click campaign estimators with visual metrics.",
@@ -26,30 +29,60 @@ export const projectsData = [
     category: "Full-Stack"
   },
   {
-    id: "hiring-website",
-    title: "ClinkHR Hiring & HR Solutions Website",
-    subtitle: "Enterprise HR Solutions & Recruitment Portal",
-    shortDescription: "A modern responsive corporate website showcasing recruitment, payroll, and workforce services with dynamic UI elements.",
-    description: "Developed and maintained the core public-facing web solution for ClinkHR. It features an interactive service showcase, client review matrices, and smooth responsive navigation modules designed to establish trust and simplify payroll and recruitment inquiries.",
-    image: "https://images.unsplash.com/photo-1521737711867-e3b904737c88?auto=format&fit=crop&w=800&q=80",
-    techStack: ["React.js", "Tailwind CSS", "Framer Motion", "Lucide React", "Vercel"],
+    id: "edulinker",
+    title: "EduLinker – Full Stack Learning Platform",
+    subtitle: "MERN-Based Educational Platform with User Authentication",
+
+    shortDescription:
+      "A full-stack educational platform built with the MERN stack, featuring secure user authentication, responsive UI, and an engaging learning experience.",
+
+    description:
+      "Developed EduLinker, a full-stack MERN educational platform that enables users to register, log in securely, and explore educational resources through a modern, responsive interface. Built using React.js, Node.js, Express.js, and MongoDB, the application integrates JWT-based authentication, RESTful APIs, and reusable component architecture to deliver a scalable and seamless user experience across all devices.",
+
+    image: edulinkerImg,
+
+    techStack: [
+      "React.js",
+      "JavaScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication",
+      "REST API",
+      "Vite",
+      "Git",
+      "GitHub",
+      "Vercel"
+    ],
+
     features: [
-      "Fluid animated interactive service cards illustrating payroll and talent solutions.",
-      "Highly optimized page assets and lazy-loading configurations yielding perfect performance scores.",
-      "Responsive navigation drawer and sticky glass navbar optimized for mobile viewports.",
-      "Fully accessible form modules for candidate applications and client intake."
+      "Secure user authentication with Login and Signup using JWT.",
+      "Modern responsive UI built with React.js and Tailwind CSS.",
+      "RESTful API integration for user authentication and data management.",
+      "Fast client-side routing with React Router for a seamless experience.",
+      "Reusable component-based architecture for better scalability and maintainability.",
+      "Fully responsive design optimized for desktop, tablet, and mobile devices."
     ],
+
     challenges: [
-      "Migrating legacy static styling into modular utility-first structure while preserving the company branding.",
-      "Optimizing complex service diagrams to scale seamlessly on varying displays."
+      "Implementing secure authentication while maintaining a smooth user experience.",
+      "Managing frontend and backend integration using REST APIs.",
+      "Designing a scalable project structure with reusable components.",
+      "Ensuring responsive layouts across different screen sizes."
     ],
+
     solutions: [
-      "Built a custom Tailwind configuration system matching the company's corporate identity guidelines.",
-      "Used responsive flex grids and SVG icons to allow layouts to adapt fluidly."
+      "Implemented JWT-based authentication with protected API endpoints.",
+      "Used Express.js and MongoDB to build a secure and scalable backend.",
+      "Organized the application into modular React components for maintainability.",
+      "Applied Tailwind CSS responsive utilities to create a consistent user interface across devices."
     ],
-    liveUrl: "https://clink-hr-2.vercel.app/",
-    githubUrl: "https://github.com/zishan0012/clink-hr-2",
-    category: "Frontend"
+
+    liveUrl: "https://edulinker.vercel.app/",
+    githubUrl: "https://github.com/zishan0012/edulinker",
+
+    category: "Full Stack"
   },
   {
     id: "bmi-calculator",
@@ -73,7 +106,7 @@ export const projectsData = [
       "Created a customized SVG gauge using Tailwind transitions and Framer Motion's pathLength animation properties.",
       "Designed a clean data-driven UI card mapping classifications to respective healthy regimens."
     ],
-    liveUrl: "https://zishan-bmi.vercel.app", // Mock live url
+    // liveUrl: "https://zishan-bmi.vercel.app", // Mock live url
     githubUrl: "https://github.com/zishan0012/BMI",
     category: "Frontend"
   }

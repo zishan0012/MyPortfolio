@@ -43,7 +43,7 @@ const Skills = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-semibold text-accent uppercase tracking-widest font-mono"
+            className="text-sm font-semibold text-accent mb-2"
           >
             My Toolbox
           </motion.h3>
@@ -67,7 +67,7 @@ const Skills = () => {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold uppercase tracking-wider transition-all duration-300 flex items-center space-x-1.5 cursor-pointer border ${
+                className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 flex items-center space-x-1.5 cursor-pointer border ${
                   isTabActive
                     ? 'bg-gradient-to-r from-primary to-secondary text-white border-transparent shadow-md shadow-primary/25'
                     : 'bg-white/3 text-gray-400 hover:text-white border-white/5 hover:bg-white/5'
@@ -113,7 +113,7 @@ const Skills = () => {
                       </h4>
                     </div>
                     
-                    <span className="font-mono text-xs font-semibold text-accent uppercase tracking-wider py-1 px-2.5 rounded-full bg-accent/10">
+                    <span className="text-xs font-medium text-accent py-1 px-2.5 rounded-full bg-accent/10">
                       {parentCat?.title.split(' ')[0]} {/* Category short title */}
                     </span>
                   </div>
