@@ -1,9 +1,9 @@
 export const internshipData = [
   {
     company: "KryossSoftech",
-    role: "MERN Stack Developer Intern",
+    role: "Web Developer Intern",
     duration: "Oct 2025 - April 2026",
-    location: "Chandigarh, India",
+    location: "Remote, India",
     responsibilities: [
       "Built full-stack applications using MongoDB, Express.js, React.js, and Node.js, ensuring clean structure and secure API design.",
       "Developed the AdKryoss Digital Marketing Platform, implementing SEO, PPC, and CRO calculators that automated digital campaign estimations.",
@@ -13,9 +13,9 @@ export const internshipData = [
   },
   {
     company: "IPAGE UMS",
-    role: "Web Developer Intern",
+    role: "Frontend Developer Intern",
     duration: "April 2025 - Oct 2025",
-    location: "Remote / Chandigarh",
+    location: "Remote, India",
     responsibilities: [
       "Created highly responsive, accessible web pages using React.js, JavaScript, and Tailwind CSS.",
       "Integrated backend endpoints, resolving state synchronization issues and rendering data streams dynamically.",
@@ -39,7 +39,7 @@ export const internshipData = [
 export const educationData = [
   {
     degree: "Bachelor of Technology in Computer Science",
-    institution: "IKG GUJRAL Punjab Technical University",
+    institution: "I.K.Gujral Punjab Technical University",
     duration: "2022 - 2026",
     score: "CGPA: 8.23",
     description: "Core specialization in Software Engineering, Web Development, Database Management Systems, and Object-Oriented Programming. Developed multiple team and individual projects."

@@ -23,7 +23,7 @@ const Contact = () => {
     }
     if (!formData.subject.trim()) errors.subject = "Subject is required";
     if (!formData.message.trim()) errors.message = "Message is required";
-    
+
     return errors;
   };
 
@@ -71,7 +71,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-5 h-5 text-accent" />,
       label: "My Location",
-      value: "Chandigarh, India",
+      value: "Muzaffarpur, Bihar",
       link: null
     }
   ];
@@ -79,7 +79,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 relative z-10">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Section Header */}
         <div className="text-center mb-16">
           <motion.h3
@@ -105,7 +105,7 @@ const Contact = () => {
 
         {/* Responsive Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 text-left">
-          
+
           {/* Left Column: Contact Cards */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -222,9 +222,8 @@ const Contact = () => {
                           name="name"
                           value={formData.name}
                           onChange={handleInputChange}
-                          className={`px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 ${
-                            formErrors.name ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
-                          }`}
+                          className={`px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 ${formErrors.name ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
+                            }`}
                           placeholder="John Doe"
                         />
                         {formErrors.name && (
@@ -246,9 +245,8 @@ const Contact = () => {
                           name="email"
                           value={formData.email}
                           onChange={handleInputChange}
-                          className={`px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 ${
-                            formErrors.email ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
-                          }`}
+                          className={`px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 ${formErrors.email ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
+                            }`}
                           placeholder="john@example.com"
                         />
                         {formErrors.email && (
@@ -271,9 +269,8 @@ const Contact = () => {
                         name="subject"
                         value={formData.subject}
                         onChange={handleInputChange}
-                        className={`w-full px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 ${
-                          formErrors.subject ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
-                        }`}
+                        className={`w-full px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 ${formErrors.subject ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
+                          }`}
                         placeholder="Collaboration Opportunities"
                       />
                       {formErrors.subject && (
@@ -295,9 +292,8 @@ const Contact = () => {
                         value={formData.message}
                         onChange={handleInputChange}
                         rows="5"
-                        className={`w-full px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 resize-none ${
-                          formErrors.message ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
-                        }`}
+                        className={`w-full px-4 py-3 rounded-xl bg-white/3 border text-sm text-white placeholder-gray-600 focus:outline-none focus:bg-white/5 transition-all duration-300 resize-none ${formErrors.message ? 'border-[#EF4444] focus:border-[#EF4444]' : 'border-white/8 focus:border-primary focus:ring-1 focus:ring-primary/20'
+                          }`}
                         placeholder="Hi Zishan, I would like to discuss..."
                       />
                       {formErrors.message && (

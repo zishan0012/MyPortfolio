@@ -7,8 +7,8 @@ import { statsData } from '../../data/experience';
 const About = () => {
   const codeString = `const developer = {
   name: "Zishan Ahmad",
-  role: "MERN Stack Developer",
-  location: "Chandigarh, India",
+  role: "Frontend / MERN Stack Developer",
+  location: "Muzaffarpur, Bihar",
   experience: "3 Internships",
   coreStack: ["MongoDB", "Express.js", "React.js", "Node.js"],
   passion: "AI-Driven Web Integrations",
@@ -128,7 +128,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4 pt-2 border-t border-white/5">
               <div>
                 <span className="text-sm font-medium text-gray-500 block mb-1">Location</span>
-                <span className="text-sm font-semibold text-white">Chandigarh, India</span>
+                <span className="text-sm font-semibold text-white">Muzaffarpur, Bihar</span>
               </div>
               <div>
                 <span className="text-sm font-medium text-gray-500 block mb-1">Degree</span>
