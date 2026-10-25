@@ -136,7 +136,7 @@ const Hero = () => {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto"
         >
           <a
-            href="/Zishanresume.pdf"
+            href="/Resume-zishan.pdf"
             download="Zishan_Ahmad_Resume.pdf"
             className="w-full sm:w-auto px-8 py-4 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-primary via-secondary to-accent hover:brightness-110 shadow-lg shadow-primary/25 hover:shadow-primary/35 flex items-center justify-center space-x-2 transition-all duration-300 transform active:scale-95"
           >

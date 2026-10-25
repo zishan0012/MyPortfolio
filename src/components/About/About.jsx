@@ -9,7 +9,7 @@ const About = () => {
   name: "Zishan Ahmad",
   role: "Frontend / MERN Stack Developer",
   location: "Muzaffarpur, Bihar",
-  experience: "3 Internships",
+  experience: "1+ Year",
   coreStack: ["MongoDB", "Express.js", "React.js", "Node.js"],
   passion: "AI-Driven Web Integrations",
   philosophy: "Write clean, scalable, modular code"
@@ -121,7 +121,7 @@ const About = () => {
             </p>
 
             <p className="text-gray-400 text-sm leading-relaxed">
-              With experience spanning multiple developer internships, I have refined my skills in full-stack architecture, building dynamic SEO and PPC calculators, and integrating AI engines. I enjoy crafting modular React components and scaling RESTful APIs while strictly adhering to mobile-first layout methodologies.
+              With one year experience and multiple developer internships, I have refined my skills in full-stack architecture, building dynamic SEO and PPC calculators, and integrating AI engines. I enjoy crafting modular React components and scaling RESTful APIs while strictly adhering to mobile-first layout methodologies.
             </p>
 
             {/* Quick Specs / Location details */}
@@ -165,7 +165,7 @@ const About = () => {
             {/* Resume button shortcut */}
             <div className="pt-4">
               <a
-                href="/Zishanresume.pdf"
+                href="/Resume-zishan.pdf"
                 download="Zishan_Ahmad_Resume.pdf"
                 className="inline-flex items-center space-x-2 text-sm font-semibold text-accent hover:text-white transition-colors duration-300"
               >

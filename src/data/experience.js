@@ -1,8 +1,8 @@
 export const internshipData = [
   {
     company: "KryossSoftech",
-    role: "Web Developer Intern",
-    duration: "Oct 2025 - April 2026",
+    role: "Web Developer",
+    duration: "Oct 2025 - Oct 2026",
     location: "Remote, India",
     responsibilities: [
       "Built full-stack applications using MongoDB, Express.js, React.js, and Node.js, ensuring clean structure and secure API design.",
@@ -78,8 +78,8 @@ export const achievementsData = [
 ];
 
 export const statsData = [
-  { label: "Projects Completed", value: "3+", suffix: "" },
-  { label: "Internships Done", value: "3", suffix: "" },
+  { label: "Projects Completed", value: "4+", suffix: "" },
+  { label: "Internships Done", value: "2", suffix: "" },
   { label: "Tech Stack Skills", value: "12+", suffix: "" },
   { label: "B.Tech CGPA", value: "8.23", suffix: "/10" }
 ];

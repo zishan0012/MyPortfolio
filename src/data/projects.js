@@ -1,6 +1,6 @@
 import adkryossImg from "../assets/project-img/adkryoss-img.png";
 import edulinkerImg from "../assets/project-img/edulinker-img.png";
-
+import flipkartcloneImg from "../assets/project-img/flipkartclone-img.png";
 export const projectsData = [
   {
     id: "adkryoss-platform",
@@ -85,29 +85,40 @@ export const projectsData = [
     category: "Full Stack"
   },
   {
-    id: "bmi-calculator",
-    title: "Advanced BMI Calculator & Health Portal",
-    subtitle: "Responsive Body Mass Index Calculator & Fitness Advisor",
-    shortDescription: "A full-stack fitness tool calculating BMI and delivering tailored health suggestions through a sleek interface.",
-    description: "A fast, intuitive body mass index tracker built following mobile-first guidelines. It takes user height and weight inputs, performs backend-powered calculations and WHO classification (Underweight, Normal, Overweight, Obese), and provides recommendations for daily workouts and nutrition.",
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
-    techStack: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "Framer Motion"],
+    id: "flipkart-clone",
+    title: "Flipkart Clone – E-Commerce Web Application",
+    subtitle: "Responsive E-Commerce Platform with Modern Shopping UI",
+    shortDescription:
+      "A responsive e-commerce web application inspired by Flipkart, built with React.js, JavaScript, and Tailwind CSS.",
+    description:
+      "A modern e-commerce interface designed to replicate core shopping experiences such as product browsing, category navigation, product listings, and responsive layouts. The application focuses on reusable React components, clean UI structure, and a smooth shopping experience across desktop, tablet, and mobile devices.",
+    image: flipkartcloneImg,
+    techStack: [
+      "React 18",
+      "JavaScript / JSX",
+      "Vite",
+      "React Router DOM",
+      "Tailwind CSS",
+      "Lucide React",
+      "React Context API",
+      "Canvas Confetti"
+    ],
     features: [
-      "Animated circular progress gauge showing user's BMI position.",
-      "Tailored wellness checklists and exercise advice based on individual classifications.",
-      "Clean dark UI design prioritizing swift single-handed interaction on mobile screens.",
-      "Express API endpoint handling calculations to support clean separation of concerns."
+      "Responsive e-commerce interface with mobile, tablet, and desktop support.",
+      "Product browsing and category-focused layouts inspired by modern shopping platforms.",
+      "Reusable React components for product cards, navigation, banners, and UI sections.",
+      "Clean and interactive shopping interface with structured product presentation."
     ],
     challenges: [
-      "Designing a fluid, hardware-accelerated animated progress gauge that loads without jank on mobile browsers.",
-      "Displaying dynamic wellness lists efficiently."
+      "Creating a responsive e-commerce layout that maintains consistent spacing and usability across different screen sizes.",
+      "Building reusable components while keeping the product-focused UI clean and maintainable."
     ],
     solutions: [
-      "Created a customized SVG gauge using Tailwind transitions and Framer Motion's pathLength animation properties.",
-      "Designed a clean data-driven UI card mapping classifications to respective healthy regimens."
+      "Implemented responsive Tailwind CSS layouts with reusable React components for consistent UI behavior.",
+      "Structured the application into reusable product and navigation components to simplify development and future updates."
     ],
-    // liveUrl: "https://zishan-bmi.vercel.app", // Mock live url
-    githubUrl: "https://github.com/zishan0012/BMI",
+    liveUrl: "https://flipkart-clone-dun-five.vercel.app/",
+    githubUrl: "https://github.com/zishan0012/Flipkart-Clone",
     category: "Frontend"
   }
 ];

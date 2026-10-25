@@ -69,10 +69,10 @@ const ProjectDetails = () => {
 
         {/* Two-Column Responsive Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
+
           {/* Left Column: Description, Features, Challenges */}
           <div className="lg:col-span-8 space-y-10">
-            
+
             {/* Project Overview */}
             <div className="space-y-4">
               <h2 className="font-display font-bold text-2xl text-white border-b border-white/5 pb-2">
@@ -103,7 +103,7 @@ const ProjectDetails = () => {
               <h2 className="font-display font-bold text-2xl text-white border-b border-white/5 pb-2">
                 Engineering Challenges & Solutions
               </h2>
-              
+
               <div className="space-y-6">
                 {project.challenges.map((challenge, index) => (
                   <div
@@ -118,7 +118,7 @@ const ProjectDetails = () => {
                         {challenge}
                       </p>
                     </div>
-                    
+
                     <div className="border-t border-white/5 pt-3">
                       <span className="text-[10px] font-bold uppercase tracking-wider text-[#10B981] font-mono">
                         Solution Applied
@@ -136,7 +136,7 @@ const ProjectDetails = () => {
 
           {/* Right Column: Sidebar metadata */}
           <div className="lg:col-span-4 space-y-6">
-            
+
             {/* Info Card */}
             <div className="p-6 rounded-2xl border border-white/8 bg-white/3 glassmorphism space-y-6 shadow-xl">
               <h3 className="font-display font-bold text-lg text-white border-b border-white/5 pb-3">
@@ -211,7 +211,7 @@ const ProjectDetails = () => {
                 You can download the full resume PDF to examine detailed coursework structure.
               </p>
               <a
-                href="/Zishanresume.pdf"
+                href="/Resume-zishan.pdf"
                 download="Zishan_Ahmad_Resume.pdf"
                 className="mt-4 w-full py-3 rounded-xl text-xs font-semibold uppercase tracking-wider text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent/30 flex items-center justify-center space-x-2 transition-all duration-300"
               >

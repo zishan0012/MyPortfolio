@@ -163,7 +163,7 @@ const Contact = () => {
                 Download my complete offline CV detailing intermediate coursework and certifications.
               </p>
               <a
-                href="/Zishanresume.pdf"
+                href="/Resume-zishan.pdf"
                 download="Zishan_Ahmad_Resume.pdf"
                 className="mt-4 inline-flex items-center space-x-2 px-4 py-2.5 rounded-lg text-sm font-medium text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent/30 transition-all duration-300 transform active:scale-95"
               >
